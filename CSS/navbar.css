@@ -1,0 +1,232 @@
+
+.bg{
+    background: linear-gradient(to bottom, #2c8769, #42c99c, #2c8769);
+    width: 100%;
+
+}
+
+
+.nav{
+    height: auto;
+    padding: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.link .photo img{
+    height: 60px;
+    width: auto;
+}
+
+
+.search{
+    padding: 7px 40px 7px 7px;
+    border-radius: 50px;
+    width: 40vw;
+}
+.searchBox .searchbtn{
+    margin-left: -60px;
+    border: 1px solid green;
+    border-radius: 50px;
+    width: 60px;
+    background: #42b95c5d;
+}
+.searchBox .searchbtn:hover{
+    border: 3px solid green;
+    background: #ffffff;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    padding: 5px 20px;
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+
+.link{
+    width: 100%;
+}
+
+.navMenu{
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.navMenu li{
+    margin: 0;
+}
+.navMenu li:hover{
+    cursor: pointer;
+}
+
+
+.sign{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+.sidebar{
+    position: fixed;
+    top: 95px;
+    right: 1%;
+    height: auto;
+    width: 250px;
+    z-index: 999;
+    background: #254222;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgb(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebarShow{
+    display: block;
+}
+.sidebar li{
+    margin: 10px;
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+.sidebar a:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+    color: #ece2b1;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+
+.signinBTN{
+    display: none;
+}
+.optionBTN{
+    display: none;
+}
+
+
+
+/* ------------------------------
+  Navbar design End here 
+------------------------------ */
+
+
+
+
+@media(max-width: 1000px) {
+    .hideOnMobile_Signin{
+        display: none;
+    }
+    .search{
+        width: 30vw;
+    }
+    .signinBTN{
+        display: block;
+    }
+    
+
+}
+
+
+@media(max-width: 760px) {
+    .hideOnMobile{
+        display: none;
+    }
+    .optionBTN{
+        display: block;
+    }
+    nav a{
+        padding: 5px 5px;
+    }
+    
+    .search{
+        width: 40vw;
+    }
+
+    
+}
+@media(max-width: 576px) {
+    .modal{
+        /* margin: 20px; */
+    }
+    
+    .signin form input button {
+        width: 90%;
+        
+    }
+
+    .card {
+        width: 350px;
+    }
+    
+}
+
+
+
+@media(max-width: 400px) {
+    .link{
+        padding: 0;
+        margin: 5px 20px;
+    }
+    nav a{
+        padding: 5px 5px;
+    }
+    .search{
+        width: 30vw;
+    }
+    .searchbtn{
+        margin-left: -40px;
+        width: 40px;
+    }
+    .navMenu{
+        margin-right: 5px;
+    }
+
+    
+}
+
+
+
+@media(max-width: 310px) {
+    .link{
+        padding: 0;
+        margin: 5px 20px;
+    }
+    nav a{
+        padding: 5px 2px;
+    }
+    .search{
+        width: 20vw;
+    }
+    
+    .navMenu{
+        margin-right: 3px;
+    }
+ 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
